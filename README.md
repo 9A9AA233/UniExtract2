@@ -8,28 +8,28 @@ Universal Extractor 2 is a tool designed to **extract files from any type of ext
 
 本程序是【Jared Breland原创UniExtract】的非官方更新和扩展版本(http://legroom.net/software/uniextract). 由于原始版本的开发已经停止，并且多年来没有更新发布，因此出现了许多分叉（修改版本，由社区志愿者维护）。这是其中最先进的，具有一长串增强功能。
 
-## New features in version 2
+## 版本2中的新功能
 
-- 500+ new supported file types
-- Batch mode
-- Scan only mode to detect the type of any given file
-- Built-in updater
-- Support for password list for common archives
-- Improved context menu integration and status box
-- Better and faster file analysis
-- Silent mode, not showing any prompts
-- Many interface improvements and redesigned dialogs
-- Resource usage/speed improvements, lots of bug fixes
+- 支持500多种新文件类型
+- 批处理模式
+- 仅扫描模式检测任何给定文件的类型
+-内置更新程序
+-支持常见归档的密码列表
+-改进的上下文菜单集成和状态框
+-更好、更快的文件分析
+-静默模式，不显示任何提示
+-许多界面改进和重新设计的对话框
+-资源使用/速度改进，大量错误修复
 
-See the [changelog](docs/changelog.txt) for a complete log of all improvements.
+请参阅[changelog](docs/changelog.txt) 获取所有改进的完整日志。
 
-## Download
+## 下载
 
-Get the latest version [here](https://github.com/Bioruebe/UniExtract2/releases/download/v2.0.0-rc.3/UniExtractRC3.zip)
+获取最新版本[here](https://github.com/Bioruebe/UniExtract2/releases/download/v2.0.0-rc.3/UniExtractRC3.zip)
 
-###### Virus alert?
+###### 病毒警报？
 
-Universal Extractor does not contain any malware. Some anti-virus programs occasionally misdetect files inside UniExtract's program directory. You can be sure that this is a so-called false positive, an error - if you downloaded UniExtract from the official source at `https://github.com/Bioruebe/UniExtract2`. A more detailed explanation can be found [here](/docs/ANTI-MALWARE.md). If you encounter a false positive, please report it [here](https://github.com/Bioruebe/UniExtract2/issues/78).
+通用提取器不包含任何恶意软件。一些反病毒程序偶尔会误检UniExtract程序目录中的文件。你可以肯定这是一个所谓的假阳性，一个错误-如果你下载UniExtract从官方来源 `https://github.com/Bioruebe/UniExtract2`.更详细的解释可参见 [here](/docs/ANTI-MALWARE.md).如果您遇到误报，请报告 [here](https://github.com/Bioruebe/UniExtract2/issues/78).
 
 ###### 'Windows protected your PC'?
 
@@ -76,21 +76,21 @@ Universal Extractor itself is completely portable, with some exceptions:
 - Storing Universal Extractor in a directory without write access (e.g. C:\Program Files) enables multi-user mode. This results in configuration files being stored in the %APPDATA% directory (C:\Users\YourUsername\AppData\Roaming\Bioruebe\UniExtract).
   See issue [#20](https://github.com/Bioruebe/UniExtract2/issues/20) for more information.
 
-#### Why are there many different versions/modifications/repacks of Universal Extractor?
+#### 为什么通用取出器有许多不同的版本/修改/重新包装？
 
-When the original developer of UniExtract stopped working on it, many people from around the world continued to update and improve the program. Some 'only' updated the tools Universal Extractor uses, others added great features. As a result all versions differ in terms of supported archives and features added.
+当UniExtract最初的开发者停止开发它时，来自世界各地的许多人继续更新和改进该程序。一些“只”更新了通用提取器使用的工具，其他人添加了伟大的功能。因此，所有版本在支持的归档文件和添加的功能方面有所不同。
 
-This version is the only 'real' open-source one, with a central repository on Github everyone can contribute to. Over the years I fulfilled many user requests, added support for files the community wanted to decompress and implemented a lot of convenience functions. Many volunteers help translating UniExtract, finding bugs, discussing improvements and respond to other user's questions.
+这个版本是唯一一个“真实的的”开源版本，在Github上有一个每个人都可以贡献的中央存储库。多年来，我满足了许多用户的要求，增加了对社区想要解压缩的文件的支持，并实现了许多方便的功能。许多志愿者帮助翻译UniExtract、查找bug、讨论改进和回答其他用户的问题。
 
-However, Universal Extractor 2 may fail to unpack files, which other versions of this tool can extract. If you *really* need to access the contents of an archive, you may have success with one of the other UniExtracts. Alternatively, you can also ask for support here. It might take a while until I can answer, though.
+但是，Universal Extractor 2可能无法解压缩此工具的其他版本可以解压缩的文件。如果您确实需要访问归档文件的内容，您可以使用其他UniExtract之一获得成功。或者，您也可以在这里寻求支持。不过，我可能要等一会儿才能回答。
 
-#### Can UniExtract (re)compress files?
+#### UniExtract可以（重新）压缩文件吗？
 
-No. This tool was designed as an extraction utility. A counterpart (*"UniArchive"*) is out of scope - at least for me. (Read about the reasons [here](https://github.com/Bioruebe/UniExtract2/issues/87#issuecomment-409806225).) Feel free to create it! 
+否。此工具设计为提取实用程序。对应物（ “统一档案” ）超出范围-至少对我来说是这样。（阅读原因 [here](https://github.com/Bioruebe/UniExtract2/issues/87#issuecomment-409806225).)请随意创建它！
 
-## Nightly Builds
+## 夜间构建
 
-You can opt-in to receive the most current development build of Universal Extractor 2. Simply open the preferences dialog (from 'Edit' menu) and check `Install beta updates`. The next time you search for updates, you will receive the development build instead of the release version. After disabling the option again you can go back to the latest stable version by simply updating.
+您可以选择接收Universal Extractor 2的最新开发版本。只需打开首选项对话框（从“编辑”菜单），并选中安装测试版更新。下次搜索更新时，您将收到开发内部版本，而不是发布版本。再次禁用该选项后，您可以通过简单的更新返回到最新的稳定版本。
 
 ## Reporting bugs
 
