@@ -6,7 +6,7 @@ Universal Extractor 2 is a tool designed to **extract files from any type of ext
 
 Unlike most archiving programs, UniExtract is not limited to **standard archives** such as `.zip` and `.rar`. It can also deal with **application installers**, **disk images** and even **game archives** and other **multimedia files**. An overview of supported file types can be found [here](/docs/FORMATS.md)
 
-This program is an unofficial updated and extended version of the [original UniExtract by Jared Breland](http://legroom.net/software/uniextract). As the development of the original version has stopped and no update has been published for years, many forks (modified versions, maintained by volunteers from the community) have arisen. This is the most advanced of them, featuring a very long list of enhancements.
+本程序是【Jared Breland原创UniExtract】的非官方更新和扩展版本(http://legroom.net/software/uniextract). 由于原始版本的开发已经停止，并且多年来没有更新发布，因此出现了许多分叉（修改版本，由社区志愿者维护）。这是其中最先进的，具有一长串增强功能。
 
 ## New features in version 2
 
