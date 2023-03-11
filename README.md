@@ -1,10 +1,10 @@
 # Universal Extractor 2 _(UniExtract2)_
 
-[![Download](https://img.shields.io/badge/download-success?style=for-the-badge)](https://github.com/Bioruebe/UniExtract2#download)
+[![下载](https://img.shields.io/badge/download-success?style=for-the-badge)](https://github.com/Bioruebe/UniExtract2#download)
 
 Universal Extractor 2 is a tool designed to **extract files from any type of extractable file**.
 
-与大多数存档程序不同，UniExtract不限于.zip和.rar等标准存档。它还可以处理应用程序安装程序、磁盘映像，甚至游戏存档和其他多媒体文件。支持的文件类型概述可在此处找到
+与大多数存档程序不同，UniExtract不限于.zip和.rar等标准存档。它还可以处理应用程序安装程序、磁盘映像，甚至游戏存档和其他多媒体文件。支持的文件类型概述可在https://www.legroom.net/software/uniextract找到
 
 本程序是【Jared Breland原创UniExtract】的非官方更新和扩展版本(http://legroom.net/software/uniextract). 由于原始版本的开发已经停止，并且多年来没有更新发布，因此出现了许多分叉（修改版本，由社区志愿者维护）。这是其中最先进的，具有一长串增强功能。
 
